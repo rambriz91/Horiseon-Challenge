@@ -5,8 +5,23 @@
     margin: 0;
 }
 /* CSS element Selectors */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
 body {
     background-color: #d9dcd6;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
 }
 
 header {
@@ -40,22 +55,6 @@ header nav ul {
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
-}
-
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-footer h2 {
-    font-size: 20px;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
 }
 
 p {

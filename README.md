@@ -6,24 +6,25 @@ This assignment is a code refactor for the Horiseon landing page. The purpose of
 
 ## Tasks 
 
-*CSS code was consilidated and labeled
-*HTML was reoganized semantically and labeled by section
-*Comments were added to html and css files
-*alt text was added to the images and logos
-*Title was added to the head
-*broken links were fixed
-*Refacted code and website was uploaded to the github repository
+- CSS code was consilidated and labeled
+- HTML was reoganized semantically and labeled by section
+- Comments were added to html and css files
+- alt text was added to the images and logos
+- Title was added to the head
+- broken links were fixed
+- Refacted code and website was uploaded to the github repository
 
 ## Usage
 
-![Alt text](assets/images/digital-marketing-meeting.jpg)
+![Alt text](assets/images/Horiseon-screenshot.png)
 
 ## Credits
 
-https://www.w3schools.com/css/css_selectors.asp
-https://www.w3schools.com/html/html_intro.asp
-https://www.w3schools.com/html/html5_syntax.asp
-https://www.makeareadme.com/
+- https://www.w3schools.com/css/css_selectors.asp
+- https://www.w3schools.com/html/html_intro.asp
+- https://www.w3schools.com/html/html5_syntax.asp
+- https://www.makeareadme.com/
+- https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#lists
 
 ## License
 
