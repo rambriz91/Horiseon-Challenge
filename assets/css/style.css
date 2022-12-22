@@ -9,21 +9,15 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+
+p {
+    font-size: 16px;
+}
+
 body {
     background-color: #d9dcd6;
 }
-
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-footer h2 {
-    font-size: 20px;
-}
-
+/* header elements  */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -57,11 +51,8 @@ header nav ul li {
     margin-left: 25px;
 }
 
-p {
-    font-size: 16px;
-}
 /* CSS id Selector */
-#hero {
+.hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -69,7 +60,6 @@ p {
     background-size: cover;
     background-position: center;
 }
-/* CSS Class Selectors */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -79,13 +69,31 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/* Main content styles  */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+.content section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content img {
+    max-height: 200px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Aside and Logos  */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -96,38 +104,30 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-    /* Aside and Logos */
-.benefit {
+ 
+.benefits section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit h3 {
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-    /* Main Section  */
-.office-pics {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+/* Footer elements  */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
 
-.office-pics img {
-    max-height: 200px;
+footer h2 {
+    font-size: 20px;
 }
-
-.office-pics h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
